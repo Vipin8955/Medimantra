@@ -1,0 +1,2 @@
+# Medimantra
+A meditation app
