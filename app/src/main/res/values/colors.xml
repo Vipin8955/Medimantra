@@ -1,0 +1,7 @@
+<resources>
+    <color name="primary">#FF6200EE</color>
+    <color name="primaryDark">#FF3700B3</color>
+    <color name="backgroundGradientStart">#FFB6C1</color>
+    <color name="backgroundGradientEnd">#FFDAB9</color>
+    <color name="buttonGreen">#4CAF50</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- When button is pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <gradient android:type="radial"
+                android:radius="50dp"
+                android:centerColor="#38963D"
+                android:endColor="#1F6924"/>
+            <stroke android:width="3dp" android:color="#1A6720"/>
+            <corners android:radius="50dp"/>
+        </shape>
+    </item>
+
+    <!-- Default button -->
+    <item>
+        <shape android:shape="oval">
+            <gradient android:type="linear"
+                android:angle="270"
+                android:startColor="#286029"
+                android:endColor="#2BCD36"/>
+            <stroke android:width="3dp" android:color="#24C12F"/>
+            <corners android:radius="50dp"/>
+        </shape>
+    </item>
+
+</selector>
