@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "meditationtimer"
+rootProject.name = "medimantra"
 include(":app")
  

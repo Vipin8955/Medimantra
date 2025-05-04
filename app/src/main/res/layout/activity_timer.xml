@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_back"
+        android:layout_gravity="start"
+        android:contentDescription="Back" />
+
+    <TextView
+        android:text="Meditation Timer"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#5D4037"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Select Background Music"
+        android:textSize="16sp"
+        android:textColor="#7D5A50"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Music Selection ScrollView -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/musicContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+    </HorizontalScrollView>
+
+    <!-- Input fields -->
+    <EditText
+        android:id="@+id/warmUpInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Warm-up Time (min)"
+        android:inputType="number"
+        android:background="@drawable/input_box"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/meditationInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Meditation Time (min)"
+        android:inputType="number"
+        android:background="@drawable/input_box"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/silenceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Silence (min)"
+        android:inputType="number"
+        android:background="@drawable/input_box"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/button"
+        android:text="START"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

@@ -1,4 +1,30 @@
 <resources>
-    <string name="app_name">Meditation Timer</string>
+    <string name="app_name">medimantra</string>
     <string name="start_button">Start</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="zero_timer">00:00</string>
+    <string name="back_button_desc">Go Back</string>
+    <string name="title_meditation_timer">Meditation Timer</string>
+    <string name="select_music">Select Background Music</string>
+    <string name="hint_warmup">Warm-up Time (min)</string>
+    <string name="hint_meditation">Meditation Time (min)</string>
+    <string name="hint_silence">End Silence (min)</string>
+    <string name="start">START</string>
+
+    <string name="downward_facing_dog">Downward Facing Dog</string>
+    <string name="lotus_pose">Lotus Pose</string>
+    <string name="quad_stretch">Quad Stretch</string>
+    <string name="butterfly_pose">Butterfly Pose</string>
+    <string name="shoulder_stretch">Shoulder Stretch</string>
+
+    <!-- Bottom Navigation Titles -->
+    <string name="nav_home">Home</string>
+    <string name="nav_exercise">User</string>
+    <string name="nav_statistic">Profile</string>
+    <string name="nav_profile">Settings</string>
+    <string name="underlined_title"><u>Stretching Exercises</u></string>
+    <string name="underlined_link"><u>https://example.com</u></string>
+
+
 </resources>

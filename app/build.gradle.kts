@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.meditationtimer"
+    namespace = "com.example.medimantra"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.meditationtimer"
+        applicationId = "com.example.medimantra"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
